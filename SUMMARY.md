@@ -6,7 +6,7 @@
 
 * [Runtime 、Class 和 Method Swizzing](theory/runtime-class-he-method-swizzing.md)
 * [Runloop](theory/runloop.md)
-* [KVO](theory/kvo.md)
+* [KVO、KVC](theory/kvo.md)
 * [APNs](theory/apns.md)
 * [Thread](theory/thread.md)
 
