@@ -28,13 +28,15 @@
 * [Protocol](practice/protocol.md)
 * [Block](practice/block.md)
 * [Push](practice/push.md)
+* [数据持久化](practice/shu-ju-chi-jiu-hua.md)
+* [网络请求](practice/wang-luo-qing-qiu.md)
 
 ## 界面
 
+* [页面布局](jie-mian/dai-ma-bu-ju.md)
 * [NavigationBar](jie-mian/navigationbar.md)
 * [Keyboard](jie-mian/keyboard.md)
 * [autolayout](jie-mian/autolayout.md)
-* [代码布局](jie-mian/dai-ma-bu-ju.md)
 
 ## 运维 <a id="operation"></a>
 
