@@ -4,26 +4,6 @@
 
 RunLoop 是 iOS 和 OSX 开发中非常基础的一个概念，这篇文章将从 CFRunLoop 的源码入手，介绍 RunLoop 的概念以及底层实现原理。之后会介绍一下在 iOS 中，苹果是如何利用 RunLoop 实现自动释放池、延迟回调、触摸事件、屏幕刷新等功能的。
 
-Index  
-[RunLoop 的概念](runloop.md#runloop-de-gai-nian)  
-[RunLoop 与线程的关系](runloop.md#runloop-yu-xian-cheng-de-guan-xi)  
-[RunLoop 对外的接口](runloop.md#runloop-dui-wai-de-jie-kou)  
-[RunLoop 的 Mode](runloop.md#runloop-de-mode)  
-[RunLoop 的内部逻辑](runloop.md#runloop-de-nei-bu-luo-ji)  
-[RunLoop 的底层实现](runloop.md#runloop-de-di-ceng-shi-xian)  
-[苹果用 RunLoop 实现的功能](runloop.md#ping-guo-yong-runloop-shi-xian-de-gong-neng)  
-[AutoreleasePool](runloop.md#autoreleasepool)  
-[事件响应  
-](runloop.md#shi-jian-xiang-ying)[手势识别  
-](runloop.md#shou-shi-shi-bie)[界面更新  
-](runloop.md#jie-mian-geng-xin)[定时器  
-](runloop.md#ding-shi-qi)[PerformSelecter](runloop.md#performselecter)  
-[关于GCD  
-](runloop.md#guan-yu-gcd)[关于网络请求  
-](runloop.md#guan-yu-wang-luo-qing-qiu)[RunLoop 的实际应用举例  
-](runloop.md#runloop-de-shi-ji-ying-yong-ju-li)[AFNetworking](runloop.md#afnetworking)  
-[AsyncDisplayKit](runloop.md#asyncdisplaykit)
-
 ### RunLoop 的概念
 
 一般来讲，一个线程一次只能执行一个任务，执行完成后线程就会退出。如果我们需要一个机制，让线程能随时处理事件但并不退出，通常的代码逻辑是这样的：
