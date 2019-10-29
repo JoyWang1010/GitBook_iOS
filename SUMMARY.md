@@ -26,8 +26,6 @@
 * [OperationQueue](practice/operationqueue.md)
 * [GCD](practice/gcd.md)
 * [Protocol](practice/protocol.md)
-* [Block](practice/block.md)
-* [Push](practice/push.md)
 * [数据持久化](practice/shu-ju-chi-jiu-hua.md)
 * [网络请求](practice/wang-luo-qing-qiu.md)
 * [循环引用合集](practice/xun-huan-yin-yong-he-ji.md)
@@ -35,15 +33,14 @@
 ## 界面
 
 * [页面布局](jie-mian/dai-ma-bu-ju.md)
-* [NavigationBar](jie-mian/navigationbar.md)
 * [Keyboard](jie-mian/keyboard.md)
-* [autolayout](jie-mian/autolayout.md)
+* [控制器生命周期](jie-mian/kong-zhi-qi-sheng-ming-zhou-qi.md)
+* [屏幕旋转](jie-mian/ping-mu-xuan-zhuan.md)
 
 ## 运维 <a id="operation"></a>
 
-* [开发者账号](operation/kai-fa-zhe-zhang-hao.md)
 * [发布app](operation/fa-bu-app.md)
-* [Jenkins CI](operation/jenkins-ci.md)
+* [脚本打包+上传fir](operation/jenkins-ci.md)
 * [埋点、漏斗模型](operation/mai-dian-lou-dou-mo-xing.md)
 * [崩溃分析](operation/beng-kui-fen-xi.md)
 * [内存泄露分析](operation/nei-cun-xie-lu-fen-xi.md)
@@ -53,4 +50,7 @@
 ## 相关知识 <a id="interrelated"></a>
 
 * [splite3常用方法](interrelated/splite3.md)
+* [Swift编码规范](interrelated/swift-bian-ma-gui-fan.md)
+* [HTTP状态码](interrelated/http-zhuang-tai-ma.md)
+* [正则表达式](interrelated/zheng-ze-biao-da-shi.md)
 
