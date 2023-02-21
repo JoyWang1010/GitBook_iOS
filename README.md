@@ -6,6 +6,8 @@
 
 smartwingletsteward://com.yueme.itv?action=1\&contentid=10001664
 
-\[smartwingletsteward://com.yueme.itv?action=1\&contentid=10001664]\(smartwingletsteward://com.yueme.itv?action=1\&contentid=10001664)
+[百度](smartwingletsteward://com.yueme.itv?action=1\&contentid=10001664)
+
+
 
 ![Alt text](http://xxx.com/path1/path2/abc.png)&#x20;
